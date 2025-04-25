@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <div class="ml-5 mt-4 op">
+        <a href="index.html">
+            <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                transform="matrix(1, 0, 0, 1, 0, 0)">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                    stroke-width="0.336" />
+
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M20 10L20.7071 10.7071L21.4142 10L20.7071 9.29289L20 10ZM3 18C3 18.5523 3.44772 19 4 19C4.55229 19 5 18.5523 5 18L3 18ZM15.7071 15.7071L20.7071 10.7071L19.2929 9.29289L14.2929 14.2929L15.7071 15.7071ZM20.7071 9.29289L15.7071 4.29289L14.2929 5.70711L19.2929 10.7071L20.7071 9.29289ZM20 9L10 9L10 11L20 11L20 9ZM3 16L3 18L5 18L5 16L3 16ZM10 9C6.13401 9 3 12.134 3 16L5 16C5 13.2386 7.23858 11 10 11L10 9Z"
+                        fill="#33363F" />
+                </g>
+
+            </svg>
+        </a>
+    </div>
+    <div class="is-flex is-justify-content-center mt-5">
+        <p class="mt-1" style="font-size: 17px; font-weight: bold;">Show Forms :</p>
+        <button id="btn" class="ml-2 button is-primary is-rounded">Show</button>
+    </div>
+    <div class="is-flex is-justify-content-center is-align-items-center" style="height: 90vh;  ">
+        <p id="text" style="color: #aeaeae;">no items available at the moment</p>
+        <div id="table" class="is-hidden">
+            <table class="table is-bordered is-link" style="background-color: #F7FFF7;">
+                <thead>
+                    <tr class="is-link">
+                        <th>Collum 1</th>
+                        <th>Collum 2</th>
+                        <th>Collum 3</th>
+                        <th>Collum 4</th>
+                    </tr>
+                </thead>
+                <tbody class="custom-text-color">
+                    <tr>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                    </tr>
+                    <tr>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                    </tr>
+                    <tr>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                        <td>exemple 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("btn").addEventListener('click', function () {
+            document.getElementById("text").classList.add("is-hidden");
+            document.getElementById("table").classList.remove("is-hidden");
+        });
+    </script>
+</body>
+
+</html>

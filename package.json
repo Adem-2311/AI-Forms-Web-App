@@ -1,0 +1,26 @@
+{
+  "name": "projet-pluridiciplinaire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cd web/backend | node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adem-2311/AI-Forms-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adem-2311/AI-Forms-Web-App/issues"
+  },
+  "homepage": "https://github.com/Adem-2311/AI-Forms-Web-App#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.3"
+  }
+}

@@ -1,0 +1,105 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #F7FFF7;
+        color: black;
+    }
+
+}
+
+* {
+    color: black;
+}
+
+.section-title {
+    background-color: #FFE66D;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.form {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.op {
+    position: fixed;
+    top: 0;
+}
+
+.z {
+    margin-bottom: 200px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select select {
+    background-color: #f0f0f0 !important;
+    color: black;
+}
+
+.custom-input {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.custom-input::placeholder {
+    color: black;
+}
+
+.w {
+    width: 20%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.main-scene {
+    animation: transitionIn 1s;
+}
+
+br {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.lfo {
+    margin-top: 70px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-text-color td {
+    color: black;
+}
+
+.table {
+    animation: transitionIn 1s;
+}
